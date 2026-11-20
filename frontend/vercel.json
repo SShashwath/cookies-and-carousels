@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/solo/:path*", "destination": "/index.html" },
+    { "source": "/room/:code", "destination": "/index.html" },
+    { "source": "/create", "destination": "/index.html" },
+    { "source": "/terms", "destination": "/index.html" },
+    { "source": "/privacy", "destination": "/index.html" }
+  ]
+}
